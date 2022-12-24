@@ -1,0 +1,94 @@
+body {
+    background-image: url('./bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: au;
+    backdrop-filter: blur(5px);
+}
+
+
+#drum-machine {
+    height: 100Vh;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.padboard {
+    max-width: 700px;
+    max-height: 600px;
+    border: 1px solid orangered;
+    background-color: goldenrod;
+}
+
+.drum-pad {
+    border: 1px solid orangered;
+    background-color: orange;
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px;
+    transition: all 0.07s;
+}
+
+.pads {
+    width: 332px;
+    height: 272px;
+    display: inline-block;
+    margin: 20px;
+}
+
+#instrument {
+    border: 1px solid orangered;
+    background-color: firebrick
+}
+
+#pads-and-instrument {
+    font-size: larger;
+}
+
+.pad-pressed {
+    transform: scale(1.08);
+    background-color: orangered;
+}
+
+#control-switch {
+    font-size: large;
+    max-width: 300px;
+}
+
+#control-switch #selector-with-modes {
+    background-color: orange;
+    box-shadow: 3px 3px 5px;
+    align-items: center;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.selector {
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.selector #just-switch {
+    background-color: firebrick;
+    border: 1px solid black;
+    width: 35px;
+    height: 30px;
+    position: relative;
+    float: left;
+}
+
+.switch-mode {
+    font-weight: bolder;
+    color: firebrick
+}
